@@ -16,6 +16,8 @@
 		FA3F61FF2A7CE14000ECE884 /* VoiceARRobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F61FE2A7CE14000ECE884 /* VoiceARRobotTests.swift */; };
 		FA3F62092A7CE14000ECE884 /* VoiceARRobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F62082A7CE14000ECE884 /* VoiceARRobotUITests.swift */; };
 		FA3F620B2A7CE14000ECE884 /* VoiceARRobotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F620A2A7CE14000ECE884 /* VoiceARRobotUITestsLaunchTests.swift */; };
+		FA3F62182A7CE37600ECE884 /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA3F62172A7CE37600ECE884 /* 03.usdz */; };
+		FA83D7892A8B6B7400206B5F /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA83D7882A8B6B7400206B5F /* 07.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		FA3F62042A7CE14000ECE884 /* VoiceARRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceARRobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3F62082A7CE14000ECE884 /* VoiceARRobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceARRobotUITests.swift; sourceTree = "<group>"; };
 		FA3F620A2A7CE14000ECE884 /* VoiceARRobotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceARRobotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA3F62172A7CE37600ECE884 /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
+		FA83D7882A8B6B7400206B5F /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				FA3F61E82A7CE13F00ECE884 /* AppDelegate.swift */,
 				FA3F61EA2A7CE13F00ECE884 /* ViewController.swift */,
+				FA3F62172A7CE37600ECE884 /* 03.usdz */,
+				FA83D7882A8B6B7400206B5F /* 07.usdz */,
 				FA3F61EC2A7CE13F00ECE884 /* Experience.rcproject */,
 				FA3F61EE2A7CE13F00ECE884 /* Main.storyboard */,
 				FA3F61F12A7CE14000ECE884 /* Assets.xcassets */,
@@ -231,7 +237,9 @@
 			files = (
 				FA3F61F52A7CE14000ECE884 /* LaunchScreen.storyboard in Resources */,
 				FA3F61F22A7CE14000ECE884 /* Assets.xcassets in Resources */,
+				FA3F62182A7CE37600ECE884 /* 03.usdz in Resources */,
 				FA3F61F02A7CE13F00ECE884 /* Main.storyboard in Resources */,
+				FA83D7892A8B6B7400206B5F /* 07.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +446,8 @@
 				DEVELOPMENT_TEAM = SHFM5974XN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need to use microphone. Please allow !";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Need to use speech recognition. Please Allow!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +478,8 @@
 				DEVELOPMENT_TEAM = SHFM5974XN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need to use microphone. Please allow !";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Need to use speech recognition. Please Allow!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
